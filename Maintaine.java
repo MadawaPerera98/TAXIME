@@ -5,13 +5,14 @@ public class Maintaine {
 	private String vehicleId;
 	private String status;
 	private int qty;
+	private String driName;
 	private int partId;
 	private String description;
 	private String date;
 	public Maintaine() {
 		super();
 	}
-	public Maintaine(int id, String vehicleId, String status, int qty, int partId, String description, String date) {
+	public Maintaine(int id, String vehicleId, String status, int qty, int partId, String description, String date,String driName) {
 		super();
 		this.id = id;
 		this.vehicleId = vehicleId;
@@ -20,6 +21,7 @@ public class Maintaine {
 		this.partId = partId;
 		this.description = description;
 		this.date = date;
+		this.driName = driName;
 	}
 	public int getId() {
 		return id;
@@ -27,6 +29,13 @@ public class Maintaine {
 	public void setId(int id) {
 		this.id = id;
 	}
+	public String getDriName() {
+		return driName;
+	}
+	public void setDriName(String driName) {
+		this.driName = driName;
+	}
+
 	public String getVehicleId() {
 		return vehicleId;
 	}
