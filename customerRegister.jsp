@@ -57,7 +57,7 @@
                                 </div><button class="btn btn-primary d-block btn-user w-100" type="submit" style="border-radius: 0px;background: var(--bs-orange);border-color: var(--bs-orange);">Register Account</button>
                                 <hr>
                             </form>
-                            <div class="text-center"><a class="small" href="login.jsp">Already have an account? Login!</a></div>
+                            <div class="text-center"><a class="small" href="login.jsp">Already have an account?? Please Login!!!</a></div>
                         </div>
                     </div>
                 </div>
