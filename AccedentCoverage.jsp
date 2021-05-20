@@ -45,14 +45,14 @@
                                     <%Ivehicle vehicleService = new Svehicle();
                                       ArrayList<Vehicle> vehicleNumberList = vehicleService.getVehicleList();
                                     %>
-                                    <input class="form-control form-control-user" type="text" id="exampleFirstName-1" placeholder="Vehicle id" name="VNumber" style="border-radius: 0px;" list="numberList" required="required">
+                                    <input class="form-control form-control-user" type="text" id="exampleFirstName-1" placeholder="Vehicle id" name="VehicleNumber" style="border-radius: 0px;" list="numberList" required="required">
                                     <datalist id="numberList">
                                     <%for(Vehicle vehicle :vehicleNumberList){ %>
 								        <option value="<%=vehicle.getVehicleNumber()%>"><%=vehicle.getVehicleNumber()%> - owner: <%=vehicle.getOwnerName()%> - type :<%=vehicle.getType()%></option>
 									<%} %>
 								    </datalist>
                                     </div>
-                                     <div class="col-sm-6"><input class="form-control form-control-user" type="text" id="exampleFirstName-2" placeholder="Driver Name" name="driverName" style="border-radius: 0px;" pattern="[a-zA-Z].+" required="required" ></div>
+                                     <div class="col-sm-6"><input class="form-control form-control-user" type="text" id="exampleFirstName-2" placeholder="Driver's Name" name="driverName" style="border-radius: 0px;" pattern="[a-zA-Z].+" required="required" ></div>
                                
                                 </div>
                                 <div class="row mb-3">
